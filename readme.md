@@ -12,6 +12,12 @@
 - его временной зоне,
 - а также о значении температуры (как она ощущается)
 
+
 ```python
 get_weather_data('Kiev', api_key=key)
 {"name": "Kyiv", "coord": {"lon": 30.52, "lat": 50.43}, "country": "UA", "feels_like": 21.96, "timezone": "UTC+3"}```
+
+Результат:
+{"coord": {"lon": 37.6156, "lat": 55.7522}, "feels_like": -4.59, "country": "RU", "timezone": "UTC+03:00", "name": "Moscow"}
+{"coord": {"lon": -87.65, "lat": 41.85}, "feels_like": 0.75, "country": "US", "timezone": "UTC-06:00", "name": "Chicago"}
+{"coord": {"lon": 30.2642, "lat": 59.8944}, "feels_like": -9.41, "country": "RU", "timezone": "UTC+03:00", "name": "Saint Petersburg"}
